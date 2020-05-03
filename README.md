@@ -49,4 +49,4 @@ Laravel skeleton for new proyect
 ```
 
 8. Check URL:
-` laravel-app.local:8000`
+` http://laravel-app.local:8000`
