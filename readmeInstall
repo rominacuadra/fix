@@ -1,0 +1,1 @@
+After run Dockerfile, enter to container app and execute: composer install
