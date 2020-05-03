@@ -35,7 +35,18 @@ Laravel skeleton for new proyect
     $ docker ps
 ```
 
-6. Install compose in app container:
+6. Install compose and configure artisan in app container:
 ```
     $ docker exec -it laravel-app bash
-```    
+    $ composer install
+    $ php artisan key:generate
+    $ php artisan migrate
+```
+
+7. Add new host in hostfile: /etc/hosts
+```
+    127.0.0.1       laravel-app.local
+```
+
+8. Check URL:
+` laravel-app.local:8000`
