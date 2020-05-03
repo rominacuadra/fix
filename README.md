@@ -1,7 +1,7 @@
-# Larvel + Docker + Mysql
+# Larvel + Apache + Mysql + Docker
 Laravel skeleton for new proyect
 
-# Up and running
+## Up and running
 
 1. Clone the repo:
     $ git clone https://github.com/rominacuadra/larvel.git
