@@ -1,6 +1,11 @@
 # Larvel + Apache + Mysql + Docker
 Laravel skeleton for new proyect
 
+## Webserver image for Laravel
+```
+   php:7.3-apache
+```   
+
 ## Up and running
 
 1. Clone the repo:
