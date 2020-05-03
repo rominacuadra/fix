@@ -1,16 +1,17 @@
-# larvel
-Laravel skeleton
+# Larvel + Docker + Mysql
+Laravel skeleton for new proyect
 
-Up and running
+# Up and running
 
-Clone the repo:
+1. Clone the repo:
+    $ git clone https://github.com/rominacuadra/larvel.git
 
-$ git clone https://github.com/laravel/laravel.git
-$ cd laravel
-Copy .env.example to .env
+2. Rename the folder for your new proyect:
+    $ cd [NEWNAME]
 
-$ cp .env.example .env 
-Build the images and start the services:
-
-docker-compose build
-docker-compose up -d
+3. Copy .env.example to .env:
+    $ cp .env.example .env 
+    
+4. Build the images and start the services:
+    $ docker-compose build
+    $ docker-compose up -d
