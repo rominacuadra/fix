@@ -50,3 +50,5 @@ Laravel skeleton for new proyect
 
 8. Check URL:
 ` http://laravel-app.local:8000`
+
+9. Go to
